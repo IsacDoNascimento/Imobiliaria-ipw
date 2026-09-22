@@ -82,3 +82,19 @@ footer {
   color: var(--aurora-primary);
   border: 1px solid var(--aurora-secondary);
 }
+
+.navbar:hover{
+  padding: 2em;
+}
+
+.navbar{
+  transition: all 1s ease-in-out;
+}
+
+footer:hover{
+  padding: 2em;
+}
+
+footer{
+  transition: all 1s ease-in-out;
+}
